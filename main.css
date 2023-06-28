@@ -1,0 +1,57 @@
+
+body {
+    background-color: cadetblue;
+    background-position: center;
+    background-origin: content-box;
+
+    background-size: cover;
+	height:200px;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    background-color: white;
+    position: absolute;
+    left: 35%;
+    top: 18%;
+    width: 281px;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 30px 50px;
+}
+
+.input {
+    position:relative;
+	margin-bottom:25px;
+}
+
+
+.label-input {
+    position: absolute;
+    top: -18px;
+    left: 13px;
+	font-size:16px;
+}
+
+.input input{
+    width: 90%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    margin: 12px 10px;
+}
+
+.btn-check button {
+    font-size: 15px;
+    margin: 10px 15px;
+    background-color: aqua;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid;
+    padding: 10px 23px;
+
+}
+
